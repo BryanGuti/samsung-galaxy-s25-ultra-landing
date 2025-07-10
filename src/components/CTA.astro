@@ -1,0 +1,32 @@
+---
+const whatsappNumber = "59171234567"; // Reemplaza con tu número real
+const mensaje = "Hola, estoy interesado en el Galaxy S25 Ultra. ¿Puedes darme más información?";
+const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(mensaje)}`;
+---  
+
+<section class="bg-white text-text py-24">
+  <div class="max-w-5xl mx-auto px-6 lg:px-16 text-center">
+
+    <!-- Título -->
+    <h2 class="text-3xl sm:text-4xl font-heading font-bold">
+      ¿Listo para crear sin límites?
+    </h2>
+
+    <!-- Subtítulo -->
+    <p class="mt-4 text-lg md:text-xl font-body max-w-2xl mx-auto text-muted">
+      Es el momento de llevar tu contenido al siguiente nivel. Pide el Galaxy S25 Ultra hoy mismo y finaliza tu compra fácilmente por WhatsApp.
+    </p>
+
+    <!-- Botón WhatsApp -->
+    <a 
+      href={whatsappLink} 
+      target="_blank" 
+      rel="noopener noreferrer"
+      class="mt-10 inline-flex items-center gap-3 bg-button hover:bg-button-hover text-white font-semibold text-base md:text-lg py-3 px-8 rounded-md transition"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 fill-white" viewBox="0 0 24 24"><path d="M20.52 3.48A11.93 11.93 0 0012 0C5.37 0 .01 5.37.01 12c0 2.1.54 4.15 1.57 5.97L0 24l6.22-1.6a11.95 11.95 0 0017.65-10.4 11.93 11.93 0 00-3.35-8.52zM12 21.9a9.89 9.89 0 01-5.04-1.36l-.36-.22-3.7.96.99-3.61-.24-.38A9.93 9.93 0 1121.9 12 9.94 9.94 0 0112 21.9zm5.46-7.55c-.3-.15-1.75-.86-2.02-.95-.27-.1-.47-.15-.66.15-.2.3-.76.95-.93 1.14-.17.2-.34.22-.64.07a8.14 8.14 0 01-2.4-1.47 9.01 9.01 0 01-1.66-2.07c-.17-.3 0-.46.13-.6.13-.14.3-.35.46-.52.15-.17.2-.3.3-.5.1-.2.05-.38-.02-.53-.07-.15-.65-1.56-.89-2.14-.24-.58-.48-.5-.66-.51h-.57c-.2 0-.53.07-.8.38s-1.05 1.03-1.05 2.52 1.08 2.92 1.23 3.12c.15.2 2.14 3.3 5.18 4.63.72.31 1.28.49 1.72.63.72.23 1.38.2 1.9.12.58-.09 1.75-.71 2-1.4.25-.68.25-1.27.17-1.4-.08-.13-.28-.21-.58-.36z"/></svg>
+      Hablar por WhatsApp
+    </a>
+    
+  </div>
+</section>
